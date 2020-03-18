@@ -1,0 +1,28 @@
+.text {
+  font-family: cursive;
+  border: 300px solid greenyellow;
+  background-color: tomato;
+}
+h5{
+  font-size: 13px;
+  color: brown;
+}
+p{
+  background-color: burlywood;
+}
+
+ul{
+  font-size: 20px;
+  line-height: 20px;
+  
+}
+
+img{
+  border: 300px dotted pink;
+  padding: 30px;
+  margin-top:25px;
+  /* margin-bottom:25px; */
+  margin: 25px;
+  margin-left: 500px;
+  padding: 50px;
+}
