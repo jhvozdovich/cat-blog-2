@@ -1,17 +1,10 @@
 .text {
   font-family: cursive;
-  border: 300px solid greenyellow;
+  border: 10px solid greenyellow;
   background-color: tomato;
 }
 
-h5{
-  font-size: 13px;
-  color: brown;
-}
 
-p{
-  background-color: burlywood;
-}
 
 ul{
   font-size: 20px;
@@ -20,11 +13,20 @@ ul{
 }
 
 img{
-  border: 300px dotted pink;
-  padding: 30px;
-  margin-top:25px;
+  border: 10px dotted pink;
+  padding: 10px;
+  margin-top:10px;
   /* margin-bottom:25px; */
   margin: 25px;
-  margin-left: 500px;
+  margin-left: 50px;
   padding: 50px;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
+.dark{
+background-color: black;
+color: white;
 }
