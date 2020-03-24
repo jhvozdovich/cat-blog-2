@@ -3,6 +3,7 @@
 #### _Running cat blog_
 
 #### By _**Jason Macie**_
+#### V2 contributions with _**Jessica Hvozdovich**_
 
 ## Description
 
@@ -22,7 +23,7 @@ No known bugs at this time.
 
 ## Support and contact details
 
-If you have any suggestions or questions please email us at macjay314@gmail.com.
+If you have any suggestions or questions please email us at macjay314@gmail.com or jhvozdovich@gmail.com
 
 ## Technologies Used
 
@@ -37,4 +38,4 @@ jQuery
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2020 **_Jason Macie_**
+Copyright (c) 2020 **_Jason Macie and Jessica Hvozdovich_**

@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html>
   <header>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Sad Cat Stories</title>
   </header>
   <body>
-    <div class = "text">
-    <h1>Here are the chronicles of the melancholy cats of the world</h1>
+    <div class="container">
+      <div class="row">
+        <div class = "text">
+        <h1>Here are the chronicles of the melancholy cats of the world</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Click on this cat for sad reacts only.</h3>
+          <img id = "meow-img" src=https://image.shutterstock.com/image-photo/sad-cat-he-sits-rests-600w-565582708.jpg alt="Kittie in a can" />
+          <div class="click-meow">
+            <p>Meow :(</p>
+          </div>
+        </div>
+        
+        <div class="col-md-6">
+          <div class="crisis-block">
+            <h3>Click on this cat for an existential crisis!</h3>
+            <img class="crisis-img" src="https://image.shutterstock.com/image-photo/cute-kitten-portrait-british-shorthair-600w-738354847.jpg" alt="A sad cat.">
+            <div class="crisis">
+              <p>Does life have any meaning? <span class="clickable">CLICK HERE TO FIND OUT</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="light">
+        <p>light sample</p>
+        <button class="btn btn-light" id="light">Light Mode</button> 
+      </div>
+      <div class="dark">
+        <p>dark sample</p>
+        <button class="btn btn-dark" id="dark">Dark Mode</button>     
+      </div>
     </div>
-    <img src=https://image.shutterstock.com/image-photo/sad-cat-he-sits-rests-600w-565582708.jpg alt="Kittie in a can" />
-    <img src="https://image.shutterstock.com/image-photo/cute-kitten-portrait-british-shorthair-600w-738354847.jpg" alt="">
-    <div class="light">
-      <p>light sample</p>
-      <button class="btn btn-light" id="light">Light Mode</button> 
-    </div>
-    <div class="dark">
-      <p>dark sample</p>
-      <button class="btn btn-dark" id="dark">Dark Mode</button>     
+    <div class="container add-cat">
+      <h2>Click here for an additional friend!</h2>
+      <img id="insert-img1" src="https://media.istockphoto.com/photos/cat-lies-on-the-window-in-winter-picture-id843827698" alt="blanket cat">
+      <h5>And another!</h5>
+      <img id="insert-img2" src="https://media.istockphoto.com/photos/pitiful-british-shorthair-kitten-picture-id136970692" alt="">
     </div>
   </body>
 </html>

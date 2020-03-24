@@ -12,14 +12,13 @@ ul{
   
 }
 
-img{
-  border: 10px dotted pink;
+img {
+  width: 80%;
   padding: 10px;
-  margin-top:10px;
-  /* margin-bottom:25px; */
-  margin: 25px;
-  margin-left: 50px;
-  padding: 50px;
+}
+
+#meow-img{
+  border: 10px dotted pink;
 }
 
 .light{
@@ -29,4 +28,47 @@ img{
 .dark{
 background-color: black;
 color: white;
+}
+
+.click-meow{
+  display: hidden;
+  text-align: center;
+  font-style: oblique;
+}
+
+.add-cat img{
+  display: none;
+  width: 50%;
+}
+
+.crisis {
+  display: none;
+  text-align: center;
+}
+
+.crisis-block {
+  border: 10px dotted pink;
+}
+
+.crisis-img {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crisis-img:hover {
+  border: solid 5px teal;
+}
+
+.clickable {
+  color: teal;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;
 }
